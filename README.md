@@ -1,7 +1,7 @@
 # Board Game Geek Assessment
 
-### Practical Task:
- 
+Practical Task:
+------------
 Create an acceptance test for [BoardGameGeek](http://www.boardgamegeek.com) service covering the following scenario:
 ````
 1.    WEB Open the game collection of a user.
@@ -17,3 +17,16 @@ Test is expected to run on both Windows and GNU/Linux OS.
 Important: Please don't use any external libraries to handle BoardGameGeek API calls (like bgg4j). 
 Your task is to test the API, not some BGG-specific library. 
 However, you can (and are encouraged to) use a library to make REST calls/testing easier.
+
+Help
+------------
+If you got any questions don't hesitate to contact with me: [celikgumusdag@gmail.com](mailto:celikgumusdag@gmail.com)
+
+License
+------------
+This repository is open source software provided under the Apache License 2.0. 
+
+This documentation and other similar content use the Creative Commons Attribution 3.0 Unported license. 
+
+Most libraries and tools in the ecosystem are also open source, but they may use different licenses.
+
