@@ -5,7 +5,7 @@ import cucumber.api.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class Steps {
@@ -14,7 +14,9 @@ public class Steps {
 
     @Given("Open selenium webdriver")
     public void OpenDriver() {
-        driver = new FirefoxDriver();
+        System.out.print(System.getProperty("user.dir"));
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
