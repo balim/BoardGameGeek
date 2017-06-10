@@ -24,7 +24,8 @@ First you need to install gradle to your operating system.
 
 More information about how to install gradle: https://gradle.org/install
 
-Clonde repository
+
+Clone repository
 ````
 git clone https://github.com/celikgumusdag/BoardGameGeek.git
 ````
