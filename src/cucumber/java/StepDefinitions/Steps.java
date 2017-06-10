@@ -45,6 +45,7 @@ public class Steps {
     @After
     public void CloseDriver() {
         driver.close();
+        driver.quit();
     }
 
 }
