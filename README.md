@@ -45,6 +45,12 @@ Running to automation with cucumber
 gradlew cucumber
 ````
 
+Software Design Pattern
+------------
+As Software Design Pattern, this project use :
+- Page Object Pattern 
+- Factory Pattern
+
 Help
 ------------
 If you got any questions don't hesitate to contact with me: [celikgumusdag@gmail.com](mailto:celikgumusdag@gmail.com)
