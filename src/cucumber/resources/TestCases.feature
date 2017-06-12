@@ -14,4 +14,4 @@ Feature: Assessment
     #API Check the information about the game - look for poll results about Language Dependence.
     And   Check most voted results in the API
     #WEB Verify that the most voted Language Dependence level is presented on the game's page.
-    Then Verify element '.feature-description>span>span' text is equal with the API
+    Then Verify element '.game-description .feature-description>span>span' text is equal with the API
